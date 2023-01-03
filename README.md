@@ -1,3 +1,4 @@
 # myfw
-Framework That I use to build my projects. It combine PHRoute and Jeffry Way sample framework from his php tutorials on laracasts.com..
-This is code that I use for my projects. I make some little changes to combine 2 difrrent sample frameworks. It is ready to work. Need it only to set database connection details.
+Framework That I am using to build my projects. It combines PHRoute and Jeffry Way sample framework from his PHP tutorials on laracasts.com.
+I have made some little changes to combine 2 different sample frameworks in one. It is ready to work. You should only set up your database connection details in config.php file and add your project name in .htaccess file.
+If you like it or use it please provide your feedback 
