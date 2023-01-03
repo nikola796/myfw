@@ -71,4 +71,3 @@ function download_file($stored_filename, $original_filename){
     readfile("$file");
     exit;
 }
-

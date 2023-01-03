@@ -17,17 +17,8 @@ require 'app/routes.php';
 $dispatcher = new Phroute\Dispatcher($router);
 
 try {
-
     $response = $dispatcher->dispatch(Request::method(), Request::uri());
-
 } catch (Phroute\Exception\HttpRouteNotFoundException $e) {
-
-   // var_dump($e);
-   // die();
-//header('Location: '. url().'404');
     return view('404');
-exit();
+    exit();
 }
-
-//processOutput($response);
-
