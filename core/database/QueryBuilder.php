@@ -77,7 +77,6 @@ class QueryBuilder
     public function insert($table, $params)
     {
 
-
         $sql = sprintf('INSERT INTO %s (%s) VALUES (%s)',
 
             $table,
@@ -104,15 +103,5 @@ class QueryBuilder
             die($e->getMessage());
 
         }
-
-
     }
-
-
-
-
-
-
-
-
 }
